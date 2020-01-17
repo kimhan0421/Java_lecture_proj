@@ -1,4 +1,3 @@
-//¹®Á¦3
 package chap;
 
 import java.util.Scanner;
@@ -8,12 +7,12 @@ public class Main3 {
 	public static void main(String[] args) {
 		int a, b;
 		Scanner in = new Scanner(System.in);
-		System.out.print("2ÀÚ¸® Á¤¼ö ÀÔ·Â(10~99)>> ");
+		System.out.print("2ìë¦¬ ì •ìˆ˜ ì…ë ¥(10~99)>> ");
 		a = in.nextInt();
 		if(a % 11 ==0) {
-			System.out.print("Yes! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ °°½À´Ï´Ù.");
+			System.out.print("Yes! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ê°™ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.print("NO! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ ´Ù¸¨´Ï´Ù.");
+			System.out.print("NO! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ë‹¤ë¦…ë‹ˆë‹¤.");
 		}		
 
 	}
