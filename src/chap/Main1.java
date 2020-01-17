@@ -1,4 +1,3 @@
-//¹®Á¦1
 package chap;
 
 import java.util.Scanner;
